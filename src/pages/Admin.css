@@ -1,0 +1,47 @@
+.ant-tabs-ink-bar {
+  display: none;
+}
+
+.primary-tab > .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+  justify-content: space-around;
+}
+
+.primary-tab > .ant-tabs-nav-list {
+  width: 100vw;
+}
+
+.primary-tab > .ant-tabs-tab-btn {
+  display: inline-block;
+  color: black;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 15px;
+  text-align: center;
+}
+
+.primary-tab > .ant-tabs-tab-btn::selection {
+  background: #0156e6;
+}
+
+.ant-checkbox-group {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.secondary-tab > .ant-tabs-tab-btn {
+  display: inline-block;
+  color: black;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 15px;
+  text-align: center;
+}
+
+.secondary-tab > .ant-tabs-tab-active.ant-tabs-tab {
+  display: none !important;
+}
